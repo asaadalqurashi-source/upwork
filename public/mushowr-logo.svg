@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 120" fill="none" className="w-full h-auto">
+  <defs>
+    <!-- Brand Gradient: Dark Navy to Electric Indigo to Midnight Purple -->
+    <linearGradient id="mushowrGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142B6F" />
+      <stop offset="35%" stop-color="#1E3A8A" />
+      <stop offset="70%" stop-color="#3B2D82" />
+      <stop offset="100%" stop-color="#4C1D95" />
+    </linearGradient>
+
+    <linearGradient id="mushowrGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="40%" stop-color="#1E1B4B" />
+      <stop offset="80%" stop-color="#311042" />
+      <stop offset="100%" stop-color="#581C87" />
+    </linearGradient>
+
+    <linearGradient id="ribbonShade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#312E81" />
+      <stop offset="100%" stop-color="#1E1B4B" />
+    </linearGradient>
+
+    <linearGradient id="violetFold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4338CA" />
+      <stop offset="50%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#6B21A8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Stylized Monogram M Ribbon (Icon) -->
+  <g transform="translate(10, 15)">
+    <!-- Stem 1 -->
+    <path d="M 12 85 L 12 25 C 12 18 20 14 26 19 L 45 36 C 48 39 52 39 55 36 L 74 19 C 80 14 88 18 88 25 L 88 85 C 88 89 83 91 80 87 L 60 62 C 58 59 52 59 50 62 L 20 87 C 17 91 12 89 12 85 Z" 
+          fill="url(#mushowrGrad1)" />
+    <!-- Fold Shadow overlay -->
+    <path d="M 26 19 L 50 42 C 52 44 48 50 44 46 L 20 25 C 18 23 23 16 26 19 Z" 
+          fill="url(#ribbonShade)" opacity="0.6" />
+    <path d="M 74 19 L 50 42 C 48 44 52 50 56 46 L 80 25 C 82 23 77 16 74 19 Z" 
+          fill="url(#ribbonShade)" opacity="0.4" />
+  </g>
+
+  <!-- Typography Wordmark: Mushowr in High Precision Geometric Ribbon Curves -->
+  <g transform="translate(115, 82)">
+    <text font-family="'IBM Plex Sans', -apple-system, sans-serif" 
+          font-size="68" 
+          font-weight="700" 
+          letter-spacing="-1.5px"
+          fill="url(#mushowrGrad1)">
+      Mushowr
+    </text>
+  </g>
+</svg>

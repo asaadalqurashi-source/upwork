@@ -1,0 +1,6 @@
+{
+  "name": "مشور - منصة الاستشارات التنفيذية | Mushowr Executive Advisory",
+  "description": "منصة B2B تربط قادة الأعمال بنخبة الخبراء والقيادات التنفيذية المتقاعدة لجلسات استشارية استراتيجية مع تكامل تقويم Google Meet وحوكمة الضمان المالي NDA & Escrow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
